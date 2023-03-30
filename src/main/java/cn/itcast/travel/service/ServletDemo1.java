@@ -11,6 +11,7 @@ import java.io.IOException;
 public class ServletDemo1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("git01");
+        System.out.println("git02");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
